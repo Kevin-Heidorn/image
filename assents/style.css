@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+background-color: black;
+font-family: "Montserrat", sans-serif;
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.team{
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+p{
+margin-top: 40px;
+text-align: center;
+color: rgb(255, 255, 255);
+position: relative;
+}
+
+.game-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    position: relative;
+    
+
+}
+.game-image2 {
+    display: block;
+    margin: 20px auto;
+    max-width: 40%;
+    text-align: center;
+    position: absolute;
+    margin-top: 190px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.game-image3 {
+    display: block;
+    margin: 20px auto; 
+    max-width: 50%;
+    text-align: center;
+    position: relative;
+    margin-top: -200px;
+    left: 50%;
+    transform: translateX(-100%);
+    box-sizing: border-box; 
+    border-radius: 10px; 
+    box-shadow: 0 0 0 1px white; 
+    
+}
+.borda-branca {
+    border: 1px solid white;
+    padding: 5px; 
+    border-radius: 100px; 
+}
+
+
+
+.platform-icons {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.platform-icons img {
+    width: 150px;
+    margin: 0px;
+    
+}
+.titulo{
+  text-align: center;
+  align-items: center;
+  color: white;
+  margin-top: 200px;
+
+}
+
+h2{
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+    text-align: center; 
+    padding-right: 20px; 
+    padding: 60px
+}
+
+.text-box {
+    background-color: #151316; 
+    padding: 60px;
+    border-radius: 10px; 
+    box-shadow: 0 0 0 1px white; 
+}
+
+.text-box h2 {
+    margin-top: 0; 
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.reversed {
+    flex-direction: row-reverse; 
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; 
+  }
+  
+  .centered-image img {
+    max-width: 60%; 
+    border-radius: 10px; 
+    box-shadow: 0 0 0 1px white; 
+
+  }
+  
+
+  
+
+
+
+
+
+.baixo{
+font-size: 10px;
+font-weight: 10;
+padding: 20px 10%;    
+display: flex;
+flex-direction: row;
+position: relative;
+
+
+
+color: #ECECEC;
+background-color: black;
+
+}
+
+.team{
+border-radius: 100px;
+border: 1px solid white;
+padding: 5px;
+}
+
+.background{
+display: block;
+margin: px auto;
+max-width: 100%;
+position: relative;
+
+}
+
+.coluna1 {
+padding: 30px;
+
+
+}
+
+.coluna2{
+padding: 30px;
+padding-left: 8%;
+}
+
+.letrag{
+font-size: 40px;
+
+}
+.coluna3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   
+    
+
+}
